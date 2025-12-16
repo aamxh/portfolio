@@ -1,11 +1,12 @@
 import 'package:flex_color_scheme/flex_color_scheme.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 // Made for FlexColorScheme version 7.0.0. Make sure you
 // use same or higher package version, but still same major version.
 // If you use a lower version, some properties may not be supported.
 // In that case remove them after copying this theme to your app.
+
+const _nunitoFontFamily = 'Nunito';
 
 final lightTheme = FlexThemeData.light(
   colors: const FlexSchemeColor(
@@ -75,7 +76,7 @@ final lightTheme = FlexThemeData.light(
   swapLegacyOnMaterial3: true,
   // To use the playground font, add GoogleFonts package and uncomment
   // fontFamily: GoogleFonts.notoSans().fontFamily,
-  fontFamily: GoogleFonts.nunito().fontFamily,
+  fontFamily: _nunitoFontFamily,
 );
 
 final darkTheme = FlexThemeData.dark(
@@ -146,5 +147,5 @@ final darkTheme = FlexThemeData.dark(
   swapLegacyOnMaterial3: true,
   // To use the Playground font, add GoogleFonts package and uncomment
   // fontFamily: GoogleFonts.notoSans().fontFamily,
-  fontFamily: GoogleFonts.nunito().fontFamily,
+  fontFamily: _nunitoFontFamily,
 );

@@ -1,6 +1,5 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:portfolio/src/constants/sizes.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
@@ -9,10 +8,7 @@ part 'app_startup.g.dart';
 
 @Riverpod(keepAlive: true)
 Future<void> appStartup(Ref ref) async {
-  await Future.wait([
-    EasyLocalization.ensureInitialized(),
-    GoogleFonts.pendingFonts([GoogleFonts.nunito()]),
-  ]);
+  await EasyLocalization.ensureInitialized();
 }
 
 class AppStartupWidget extends ConsumerWidget {

@@ -1,7 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
 import 'package:portfolio/src/app.dart';
 import 'package:portfolio/src/app_startup.dart';
@@ -12,7 +11,6 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   EasyLocalization.logger.enableBuildModes = [];
   usePathUrlStrategy();
-  GoogleFonts.config.allowRuntimeFetching = false;
   final supportedLocales = await AppLocalizations.supportedLocales();
   runApp(
     ProviderScope(
