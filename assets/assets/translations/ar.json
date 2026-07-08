@@ -59,8 +59,9 @@
     "projects": [
         {
             "name": "Depannini",
-            "description": "يُعد Depannini تطبيقين للهواتف المحمولة صُمِّما لتسهيل المساعدة على الطريق للسائقين في الجزائر. التطبيق الأول مخصص للعملاء (السائقين)، أما التطبيق الثاني فهو للمساعدين الذين يمكنهم تقديم خدمات السحب أو الإصلاح الميكانيكي بشكل أساسي بعد التواصل مع العملاء وبالاعتماد على التتبع الفوري في خرائط Google. تم تطوير المشروع كجزء من دراستي في السنة الثانية في ESTIN.",
+            "description": "يُعد Depannini تطبيقين للهواتف المحمولة صُمِّما لتسهيل المساعدة على الطريق للسائقين في الجزائر. التطبيق الأول مخصص للعملاء (السائقين)، أما التطبيق الثاني فهو للمساعدين. تم تطوير المشروع كجزء من دراستي في السنة الثانية في ESTIN.",
             "url": "https://github.com/aamxh/depannini#readme",
+            "screenshotPath": "assets/images/depannini.png",
             "icon": {
                 "codePoint": "0xefb7",
                 "fontFamily": "FontAwesome",
@@ -97,6 +98,7 @@
             "name": "Buhoor",
             "description": "Buhoor هو تطبيق للهواتف المحمولة يتيح للمستخدمين العثور على القصائد العربية وقراءتها وفقًا لشاعر القصيدة أو نوعها أو عصرها أو بحرها.",
             "url": "https://github.com/aamxh/buhoor#readme",
+            "screenshotPath": "assets/images/buhoor.png",
             "icon": {
                 "codePoint": "0xefb7",
                 "fontFamily": "FontAwesome",
