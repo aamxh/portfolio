@@ -46,7 +46,15 @@
     ],
     "resumes": [],
     "aboutDescription": "I am a third year computer science student who is passionate about designing and building \nsoftware as well as academic research in computer science fields. With 3+ years of experience \nworking with the Flutter framework, and focusing on mobile apps, I have built numerous projects \nfrom simple user interfaces to real-world apps with complex state management architectures. \nI am driven by building meaningful products and contributing to innovative, challenging projects.",
-    "experiences": [],
+    "experiences": [
+        {
+            "role": "NexTrace CTF Winner",
+            "company": "Nexus Security Club",
+            "description": "One of the 4 winning members of NexTrace mini CTF by Nexus Security Club at ESTIN, Bejaia.",
+            "startYear": 2025,
+            "startMonth": 10
+        }
+    ],
     "present": "Present",
     "projects": [
         {

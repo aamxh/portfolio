@@ -25,7 +25,25 @@ class ExperienceDateText extends ConsumerWidget {
     } else {
       endDate = endMonth.isEmpty ? endYear : "$endMonth $endYear";
     }
-    if (startDate == null || endDate == null) return const Text("");
+    if (startDate == null && endDate == null) return const Text("");
+    if (startDate == null || startDate.isEmpty) {
+      return Text(
+        endDate?.capitalize() ?? "",
+        style: Theme.of(context).textTheme.bodyMedium,
+      );
+    }
+    if (endDate == null || endDate.isEmpty) {
+      return Text(
+        startDate.capitalize(),
+        style: Theme.of(context).textTheme.bodyMedium,
+      );
+    }
+    if (startDate == endDate) {
+      return Text(
+        startDate.capitalize(),
+        style: Theme.of(context).textTheme.bodyMedium,
+      );
+    }
     return Text(
       "${startDate.capitalize()} - ${endDate.capitalize()}",
       style: Theme.of(context).textTheme.bodyMedium,

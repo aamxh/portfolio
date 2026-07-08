@@ -3,6 +3,7 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:portfolio/src/constants/sizes.dart';
+import 'package:portfolio/src/features/experience/domain/experience.dart';
 import 'package:portfolio/src/features/experience/data/experience_repository.dart';
 import 'package:portfolio/src/features/experience/presentation/widgets/experience_card.dart';
 import 'package:portfolio/src/localization/generated/locale_keys.g.dart';
@@ -14,6 +15,18 @@ class ExperienceDesktop extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final experiences =
         ref.watch(experienceRepositoryProvider).getExperiences();
+    final visibleExperiences = experiences.isEmpty
+        ? [
+            const Experience(
+              role: 'NexTrace CTF Winner',
+              company: 'Nexus Security Club',
+              description:
+                  'One of the 4 winning members of NexTrace mini CTF by Nexus Security Club at ESTIN, Bejaia.',
+              startYear: 2025,
+              startMonth: 10,
+            ),
+          ]
+        : experiences;
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -25,11 +38,11 @@ class ExperienceDesktop extends ConsumerWidget {
             style: Theme.of(context).textTheme.titleLarge,
           ),
         ),
-        ...experiences.mapIndexed((index, experience) {
+        ...visibleExperiences.mapIndexed((index, experience) {
           return Column(
             children: [
               ExperienceCard(experience: experience),
-              if (index != experiences.length - 1) gapH24,
+              if (index != visibleExperiences.length - 1) gapH24,
             ],
           );
         }),

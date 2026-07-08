@@ -49,11 +49,22 @@ class MyIcon extends ConsumerWidget {
         );
       }
     } else if (iconAssetName != null) {
-      return SvgPicture.asset(
+      if (iconAssetName.toLowerCase().endsWith('.svg')) {
+        return SvgPicture.asset(
+          iconAssetName,
+          width: size,
+          colorFilter:
+              color == null ? null : ColorFilter.mode(color, BlendMode.srcIn),
+        );
+      }
+
+      return Image.asset(
         iconAssetName,
         width: size,
-        colorFilter:
-            color == null ? null : ColorFilter.mode(color, BlendMode.srcIn),
+        height: size,
+        fit: BoxFit.contain,
+        color: color,
+        colorBlendMode: color == null ? null : BlendMode.srcIn,
       );
     }
     return placeholder;
