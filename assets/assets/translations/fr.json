@@ -1,0 +1,175 @@
+{
+    "name": "Mohammed Alsayed Ahmed",
+    "description": "Développeur Flutter",
+    "subDescription": "Étudiant en informatique",
+    "contacts": [
+        {
+            "tooltip": "Github",
+            "url": "https://github.com/aamxh",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome"
+            }
+        },
+        {
+            "tooltip": "Twitter",
+            "url": "https://twitter.com/aamxh",
+            "icon": {
+                "codePoint": "0xf0ea",
+                "fontFamily": "FontAwesome"
+            }
+        },
+        {
+            "tooltip": "LinkedIn",
+            "url": "https://www.linkedin.com/in/mohammed-alsayed-ahmed-51a938384",
+            "icon": {
+                "codePoint": "0xeffb",
+                "fontFamily": "FontAwesome"
+            }
+        },
+        {
+            "tooltip": "a.a.mxhamed@gmail.com",
+            "url": "mailto:a.a.mxhamed@gmail.com",
+            "icon": {
+                "codePoint": "0xeaad",
+                "fontFamily": "FontAwesome"
+            }
+        },
+        {
+            "tooltip": "+213655163532",
+            "url": "tel:+213655163532",
+            "icon": {
+                "codePoint": "0xecbb",
+                "fontFamily": "FontAwesome"
+            }
+        }
+    ],
+    "resumes": [],
+    "aboutDescription": "Je suis étudiant en troisième année d'informatique et je suis passionné par la conception et le développement de logiciels, ainsi que par la recherche académique dans les domaines de l'informatique. Avec plus de 3 ans d'expérience avec Flutter, en me concentrant sur les applications mobiles, j'ai réalisé de nombreux projets, des interfaces utilisateur simples aux applications réelles avec des architectures de gestion d'état complexes. Je suis animé par la création de produits utiles et par ma contribution à des projets innovants et stimulants.",
+    "experiences": [
+        {
+            "role": "Vainqueur du CTF NexTrace",
+            "company": "Nexus Security Club",
+            "description": "L'un des 4 membres gagnants du mini CTF NexTrace organisé par le Nexus Security Club à l'ESTIN, Béjaïa.",
+            "startYear": 2025,
+            "startMonth": 10
+        }
+    ],
+    "present": "Présent",
+    "projects": [
+        {
+            "name": "Depannini",
+            "description": "Depannini est un duo de deux applications mobiles conçues pour faciliter l'assistance routière des conducteurs en Algérie. La première application est destinée aux clients (conducteurs), et la seconde aux assistants qui peuvent fournir principalement des services de remorquage ou de réparation mécanique après avoir contacté les clients et grâce au suivi en temps réel dans Google Maps. Le projet a été développé dans le cadre de mes études de deuxième année à l'ESTIN.",
+            "url": "https://github.com/aamxh/depannini#readme",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                {
+                    "name": "GetX",
+                    "icon": {
+                        "assetName": "assets/icons/other/getx.png"
+                    }
+                },
+                {
+                    "name": "PostgreSQL",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/postgresql.svg"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Buhoor",
+            "description": "Buhoor est une application mobile qui permet aux utilisateurs de trouver et de lire des poèmes arabes selon le poète, le genre, l'époque ou le mètre de chaque poème.",
+            "url": "https://github.com/aamxh/buhoor#readme",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                {
+                    "name": "GetX",
+                    "icon": {
+                        "assetName": "assets/icons/other/getx.png"
+                    }
+                },
+                {
+                    "name": "PostgreSQL",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/postgresql.svg"
+                    }
+                },
+                {
+                    "name": "Node.js",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/nodejs.svg"
+                    }
+                }
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "code": "en",
+            "name": "Anglais",
+            "nativeName": "English",
+            "icon": {
+                "assetName": "assets/icons/flags/united-states-of-america.svg"
+            }
+        },
+        {
+            "code": "fr",
+            "name": "Français",
+            "nativeName": "Français",
+            "icon": {
+                "assetName": "assets/icons/flags/france.svg"
+            }
+        },
+        {
+            "code": "ar",
+            "name": "Arabe",
+            "nativeName": "العربية",
+            "icon": {
+                "assetName": "assets/icons/flags/arabic.webp"
+            }
+        }
+    ],
+    "portfolio": "Portfolio",
+    "homeSectionTitle": "Accueil",
+    "aboutSectionTitle": "À propos",
+    "aboutSectionTitleAlt": "À propos de moi",
+    "experienceSectionTitle": "Expérience",
+    "projectsSectionTitle": "Projets",
+    "resume": "CV",
+    "downloadResume": "Télécharger le CV",
+    "openUrlError": "Impossible d'ouvrir l'URL",
+    "unknownLanguageError": "Langue inconnue"
+}

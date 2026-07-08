@@ -1,0 +1,175 @@
+{
+    "name": "Mohammed Alsayed Ahmed",
+    "description": "Flutter Developer",
+    "subDescription": "Computer Science Student",
+    "contacts": [
+        {
+            "tooltip": "Github",
+            "url": "https://github.com/aamxh",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome"
+            }
+        },
+        {
+            "tooltip": "Twitter",
+            "url": "https://twitter.com/aamxh",
+            "icon": {
+                "codePoint": "0xf0ea",
+                "fontFamily": "FontAwesome"
+            }
+        },
+        {
+            "tooltip": "LinkedIn",
+            "url": "https://www.linkedin.com/in/mohammed-alsayed-ahmed-51a938384",
+            "icon": {
+                "codePoint": "0xeffb",
+                "fontFamily": "FontAwesome"
+            }
+        },
+        {
+            "tooltip": "a.a.mxhamed@gmail.com",
+            "url": "mailto:a.a.mxhamed@gmail.com",
+            "icon": {
+                "codePoint": "0xeaad",
+                "fontFamily": "FontAwesome"
+            }
+        },
+        {
+            "tooltip": "+213655163532",
+            "url": "tel:+213655163532",
+            "icon": {
+                "codePoint": "0xecbb",
+                "fontFamily": "FontAwesome"
+            }
+        }
+    ],
+    "resumes": [],
+    "aboutDescription": "I am a third year computer science student who is passionate about designing and building \nsoftware as well as academic research in computer science fields. With 3+ years of experience \nworking with the Flutter framework, and focusing on mobile apps, I have built numerous projects \nfrom simple user interfaces to real-world apps with complex state management architectures. \nI am driven by building meaningful products and contributing to innovative, challenging projects.",
+    "experiences": [
+        {
+            "role": "NexTrace CTF Winner",
+            "company": "Nexus Security Club",
+            "description": "One of the 4 winning members of NexTrace mini CTF by Nexus Security Club at ESTIN, Bejaia.",
+            "startYear": 2025,
+            "startMonth": 10
+        }
+    ],
+    "present": "Present",
+    "projects": [
+        {
+            "name": "Depannini",
+            "description": "Depannini is a pair of two mobile applications made to facilitate roadside assistance for drivers in Algeria. The first application is for clients (drivers), and the second one is for assistants who can provide mainly towing or mechanical repair services after contacting the clients and with the help of real-time tracking in Google Maps. The project was developed as a part of my 2nd year studies at ESTIN.",
+            "url": "https://github.com/aamxh/depannini#readme",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                {
+                    "name": "GetX",
+                    "icon": {
+                        "assetName": "assets/icons/other/getx.png"
+                    }
+                },
+                {
+                    "name": "PostgreSQL",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/postgresql.svg"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Buhoor",
+            "description": "Buhoor is a mobile application that allows users to find and read Arabic poems according to to each poem's poet, genre, era or meter. ",
+            "url": "https://github.com/aamxh/buhoor#readme",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                {
+                    "name": "GetX",
+                    "icon": {
+                        "assetName": "assets/icons/other/getx.png"
+                    }
+                },
+                {
+                    "name": "PostgreSQL",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/postgresql.svg"
+                    }
+                },
+                {
+                    "name": "Node.js",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/nodejs.svg"
+                    }
+                }
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "code": "en",
+            "name": "English",
+            "nativeName": "English",
+            "icon": {
+                "assetName": "assets/icons/flags/united-states-of-america.svg"
+            }
+        },
+        {
+            "code": "fr",
+            "name": "French",
+            "nativeName": "Français",
+            "icon": {
+                "assetName": "assets/icons/flags/france.svg"
+            }
+        },
+        {
+            "code": "ar",
+            "name": "Arabic",
+            "nativeName": "العربية",
+            "icon": {
+                "assetName": "assets/icons/flags/arabic.webp"
+            }
+        }
+    ],
+    "portfolio": "Portfolio",
+    "homeSectionTitle": "Home",
+    "aboutSectionTitle": "About",
+    "aboutSectionTitleAlt": "About Me",
+    "experienceSectionTitle": "Experience",
+    "projectsSectionTitle": "Projects",
+    "resume": "Resume",
+    "downloadResume": "Download resume",
+    "openUrlError": "Could not open the url",
+    "unknownLanguageError": "Language unknown"
+}

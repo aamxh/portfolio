@@ -1,0 +1,175 @@
+{
+    "name": "محمد السيد أحمد",
+    "description": "مطور Flutter",
+    "subDescription": "طالب علوم الحاسوب",
+    "contacts": [
+        {
+            "tooltip": "GitHub",
+            "url": "https://github.com/aamxh",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome"
+            }
+        },
+        {
+            "tooltip": "تويتر",
+            "url": "https://twitter.com/aamxh",
+            "icon": {
+                "codePoint": "0xf0ea",
+                "fontFamily": "FontAwesome"
+            }
+        },
+        {
+            "tooltip": "لينكدإن",
+            "url": "https://www.linkedin.com/in/mohammed-alsayed-ahmed-51a938384",
+            "icon": {
+                "codePoint": "0xeffb",
+                "fontFamily": "FontAwesome"
+            }
+        },
+        {
+            "tooltip": "a.a.mxhamed@gmail.com",
+            "url": "mailto:a.a.mxhamed@gmail.com",
+            "icon": {
+                "codePoint": "0xeaad",
+                "fontFamily": "FontAwesome"
+            }
+        },
+        {
+            "tooltip": "+213655163532",
+            "url": "tel:+213655163532",
+            "icon": {
+                "codePoint": "0xecbb",
+                "fontFamily": "FontAwesome"
+            }
+        }
+    ],
+    "resumes": [],
+    "aboutDescription": "أنا طالب في السنة الثالثة في علوم الحاسوب، وأملك شغفًا بتصميم وبناء \nالبرمجيات، وكذلك بالبحث الأكاديمي في مجالات علوم الحاسوب. لدي أكثر من 3 سنوات من الخبرة \nفي العمل مع إطار Flutter، مع التركيز على تطبيقات الهواتف المحمولة، وقد أنجزت العديد من المشاريع \nالتي تتراوح بين واجهات بسيطة وتطبيقات واقعية ذات معماريات معقدة لإدارة الحالة. \nأنا مدفوع ببناء منتجات ذات معنى والمساهمة في مشاريع مبتكرة وتحدّية.",
+    "experiences": [
+        {
+            "role": "الفائز في NexTrace CTF",
+            "company": "Nexus Security Club",
+            "description": "أحد الأعضاء الأربعة الفائزين في المسابقة المصغرة NexTrace CTF التي نظمها نادي Nexus Security Club في ESTIN، بجاية.",
+            "startYear": 2025,
+            "startMonth": 10
+        }
+    ],
+    "present": "الحاضر",
+    "projects": [
+        {
+            "name": "Depannini",
+            "description": "يُعد Depannini تطبيقين للهواتف المحمولة صُمِّما لتسهيل المساعدة على الطريق للسائقين في الجزائر. التطبيق الأول مخصص للعملاء (السائقين)، أما التطبيق الثاني فهو للمساعدين الذين يمكنهم تقديم خدمات السحب أو الإصلاح الميكانيكي بشكل أساسي بعد التواصل مع العملاء وبالاعتماد على التتبع الفوري في خرائط Google. تم تطوير المشروع كجزء من دراستي في السنة الثانية في ESTIN.",
+            "url": "https://github.com/aamxh/depannini#readme",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                {
+                    "name": "GetX",
+                    "icon": {
+                        "assetName": "assets/icons/other/getx.png"
+                    }
+                },
+                {
+                    "name": "PostgreSQL",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/postgresql.svg"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Buhoor",
+            "description": "Buhoor هو تطبيق للهواتف المحمولة يتيح للمستخدمين العثور على القصائد العربية وقراءتها وفقًا لشاعر القصيدة أو نوعها أو عصرها أو بحرها.",
+            "url": "https://github.com/aamxh/buhoor#readme",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                {
+                    "name": "GetX",
+                    "icon": {
+                        "assetName": "assets/icons/other/getx.png"
+                    }
+                },
+                {
+                    "name": "PostgreSQL",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/postgresql.svg"
+                    }
+                },
+                {
+                    "name": "Node.js",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/nodejs.svg"
+                    }
+                }
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "code": "en",
+            "name": "الإنجليزية",
+            "nativeName": "English",
+            "icon": {
+                "assetName": "assets/icons/flags/united-states-of-america.svg"
+            }
+        },
+        {
+            "code": "fr",
+            "name": "الفرنسية",
+            "nativeName": "Français",
+            "icon": {
+                "assetName": "assets/icons/flags/france.svg"
+            }
+        },
+        {
+            "code": "ar",
+            "name": "العربية",
+            "nativeName": "العربية",
+            "icon": {
+                "assetName": "assets/icons/flags/arabic.webp"
+            }
+        }
+    ],
+    "portfolio": "معرض الأعمال",
+    "homeSectionTitle": "الرئيسية",
+    "aboutSectionTitle": "نبذة",
+    "aboutSectionTitleAlt": "نبذة عني",
+    "experienceSectionTitle": "الخبرة",
+    "projectsSectionTitle": "المشاريع",
+    "resume": "السيرة الذاتية",
+    "downloadResume": "تنزيل السيرة الذاتية",
+    "openUrlError": "تعذر فتح الرابط",
+    "unknownLanguageError": "لغة غير معروفة"
+}
