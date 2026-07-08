@@ -20,7 +20,7 @@ class PersonalInfoTablet extends ConsumerWidget {
           tr(LocaleKeys.name),
           style: Theme.of(context).textTheme.displayLarge,
         ),
-        gapH4,
+        gapH8,
         Text(
           tr(LocaleKeys.description),
           style: Theme.of(context).textTheme.titleLarge,
@@ -30,8 +30,12 @@ class PersonalInfoTablet extends ConsumerWidget {
           tr(LocaleKeys.subDescription),
           style: Theme.of(context).textTheme.bodyLarge,
         ),
+        gapH16,
+        CircleAvatar(
+          radius: 80,
+          backgroundImage: const AssetImage('assets/images/pfp.png'),
+        ),
         gapH64,
-        gapH8,
         ContactBar(contacts: contacts.toList()),
       ],
     );

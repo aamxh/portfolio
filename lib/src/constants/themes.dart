@@ -10,13 +10,13 @@ const _nunitoFontFamily = 'Nunito';
 
 final lightTheme = FlexThemeData.light(
   colors: const FlexSchemeColor(
-    primary: Color(0xffd0bfed),
-    primaryContainer: Color(0xff5f00b7),
-    secondary: Color(0xff9a60d9),
-    secondaryContainer: Color(0xff3b0073),
-    tertiary: Color(0xffaa8abb),
+    primary: Color(0xffbfd7ed),
+    primaryContainer: Color(0xff0074b7),
+    secondary: Color(0xff60a3d9),
+    secondaryContainer: Color(0xff003b73),
+    tertiary: Color(0xff8a9cbb),
     tertiaryContainer: Color(0xff000000),
-    appBarColor: Color(0xff450073),
+    appBarColor: Color(0xff003b73),
     error: Color(0xffb00020),
   ),
   textTheme: const TextTheme(
@@ -81,13 +81,13 @@ final lightTheme = FlexThemeData.light(
 
 final darkTheme = FlexThemeData.dark(
   colors: const FlexSchemeColor(
-    primary: Color(0xff4e2775),
-    primaryContainer: Color(0xff62419f),
-    secondary: Color(0xff321c52),
-    secondaryContainer: Color(0xffcfc3e5),
-    tertiary: Color(0xff9a8abb),
+    primary: Color(0xff274472),
+    primaryContainer: Color(0xff41729f),
+    secondary: Color(0xff122035),
+    secondaryContainer: Color(0xffc3e0e5),
+    tertiary: Color(0xff8a9cbb),
     tertiaryContainer: Color(0xff000000),
-    appBarColor: Color(0xffd2c3e5),
+    appBarColor: Color(0xffc3e0e5),
     error: Color(0xffcf6679),
   ),
   textTheme: const TextTheme(

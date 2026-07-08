@@ -59,8 +59,9 @@
     "projects": [
         {
             "name": "Depannini",
-            "description": "Depannini est un duo de deux applications mobiles conçues pour faciliter l'assistance routière des conducteurs en Algérie. La première application est destinée aux clients (conducteurs), et la seconde aux assistants qui peuvent fournir principalement des services de remorquage ou de réparation mécanique après avoir contacté les clients et grâce au suivi en temps réel dans Google Maps. Le projet a été développé dans le cadre de mes études de deuxième année à l'ESTIN.",
+            "description": "Depannini est un duo de deux applications mobiles conçues pour faciliter l'assistance routière des conducteurs en Algérie. La première application est destinée aux clients (conducteurs), et la seconde aux assistants. Le projet a été développé dans le cadre de mes études de deuxième année à l'ESTIN.",
             "url": "https://github.com/aamxh/depannini#readme",
+            "screenshotPath": "assets/images/depannini.png",
             "icon": {
                 "codePoint": "0xefb7",
                 "fontFamily": "FontAwesome",
@@ -97,6 +98,7 @@
             "name": "Buhoor",
             "description": "Buhoor est une application mobile qui permet aux utilisateurs de trouver et de lire des poèmes arabes selon le poète, le genre, l'époque ou le mètre de chaque poème.",
             "url": "https://github.com/aamxh/buhoor#readme",
+            "screenshotPath": "assets/images/buhoor.png",
             "icon": {
                 "codePoint": "0xefb7",
                 "fontFamily": "FontAwesome",

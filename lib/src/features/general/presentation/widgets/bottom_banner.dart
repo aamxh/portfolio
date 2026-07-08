@@ -41,7 +41,7 @@ class _BottomBannerState extends ConsumerState<BottomBanner> {
         child: MySelectionArea(
           child: Center(
             child: Text(
-              "Made with Flutter.",
+              "Made with Flutter",
               textAlign: TextAlign.center,
               overflow: TextOverflow.ellipsis,
               maxLines: 2,

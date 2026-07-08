@@ -20,7 +20,7 @@ class PersonalInfoMobile extends ConsumerWidget {
           tr(LocaleKeys.name),
           style: Theme.of(context).textTheme.displayMedium,
         ),
-        gapH4,
+        gapH8,
         Text(
           tr(LocaleKeys.description),
           style: Theme.of(context).textTheme.titleLarge?.copyWith(fontSize: 20),
@@ -30,8 +30,12 @@ class PersonalInfoMobile extends ConsumerWidget {
           tr(LocaleKeys.subDescription),
           style: Theme.of(context).textTheme.bodyLarge,
         ),
+        gapH16,
+        CircleAvatar(
+          radius: 64,
+          backgroundImage: const AssetImage('assets/images/pfp.png'),
+        ),
         gapH64,
-        gapH8,
         ContactBar(contacts: contacts.toList()),
       ],
     );

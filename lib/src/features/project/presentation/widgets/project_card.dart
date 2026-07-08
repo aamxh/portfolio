@@ -62,7 +62,7 @@ class _ProjectCardState extends ConsumerState<ProjectCard> {
   }
 
   Widget _buildResponsiveProjectCardContent(BuildContext context) {
-    if (!Responsive.isTablet(context)) {
+    if (Responsive.isMobile(context)) {
       return Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -76,12 +76,12 @@ class _ProjectCardState extends ConsumerState<ProjectCard> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Expanded(
-          flex: 7,
+          flex: 8,
           child: ProjectImage(project: widget.project, isHovered: _isHovered),
         ),
         gapW12,
         Expanded(
-          flex: 10,
+          flex: 7,
           child: ProjectDescription(project: widget.project),
         ),
       ],

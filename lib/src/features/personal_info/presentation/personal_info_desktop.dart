@@ -12,15 +12,14 @@ class PersonalInfoDesktop extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final contacts = ref.watch(personalInfoRepositoryProvider).getContacts();
-
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
           tr(LocaleKeys.name),
-          style: Theme.of(context).textTheme.displayLarge,
+          style: Theme.of(context).textTheme.displaySmall,
         ),
-        gapH4,
+        gapH8,
         Text(
           tr(LocaleKeys.description),
           style: Theme.of(context).textTheme.titleLarge,
@@ -28,7 +27,12 @@ class PersonalInfoDesktop extends ConsumerWidget {
         gapH8,
         Text(
           tr(LocaleKeys.subDescription),
-          style: Theme.of(context).textTheme.bodyLarge,
+          style: Theme.of(context).textTheme.titleLarge,
+        ),
+        gapH16,
+        CircleAvatar(
+          radius: 100,
+          backgroundImage: const AssetImage('assets/images/pfp.png'),
         ),
         const Spacer(),
         gapH8,
