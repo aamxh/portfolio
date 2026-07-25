@@ -136,6 +136,24 @@
                     }
                 }
             ]
+        },
+        {
+            "name": "Ferrux",
+            "description": "Ferrux is an async reverse proxy server that supports L7 routing, health-checking, and weighted load balancing strategy.",
+            "url": "https://github.com/aamxh/ferrux#readme",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "technologies": [
+                {
+                    "name": "Rust",
+                    "icon": {
+                        "assetName": "assets/icons/other/rust.png"
+                    }
+                }
+            ]
         }
     ],
     "languages": [

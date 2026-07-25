@@ -136,6 +136,24 @@
                     }
                 }
             ]
+        },
+        {
+            "name": "Ferrux",
+            "description": "Ferrux est un serveur proxy inverse asynchrone qui prend en charge le routage L7, la vérification d'état et une stratégie d'équilibrage de charge pondérée.",
+            "url": "https://github.com/aamxh/ferrux#readme",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "technologies": [
+                {
+                    "name": "Rust",
+                    "icon": {
+                        "assetName": "assets/icons/other/rust.png"
+                    }
+                }
+            ]
         }
     ],
     "languages": [
