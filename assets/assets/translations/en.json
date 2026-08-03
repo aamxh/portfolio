@@ -1,6 +1,6 @@
 {
     "name": "Mohammed Alsayed Ahmed",
-    "description": "Flutter Developer",
+    "description": "Software Developer | Cybersecurity Enthusiast",
     "subDescription": "Computer Science Student",
     "contacts": [
         {
@@ -45,7 +45,7 @@
         }
     ],
     "resumes": [],
-    "aboutDescription": "I am a third year computer science student who is passionate about designing and building \nsoftware as well as academic research in computer science fields. With 3+ years of experience \nworking with the Flutter framework, and focusing on mobile apps, I have built numerous projects \nfrom simple user interfaces to real-world apps with complex state management architectures. \nI am driven by building meaningful products and contributing to innovative, challenging projects.",
+    "aboutDescription": "I am a third year computer science student who is passionate about designing and building \nsoftware as well as cybersecurity. With 3+ years of experience \nworking with the Flutter framework, and focusing on mobile apps, I have built numerous projects \nfrom simple user interfaces to real-world apps with complex state management architectures. \nI am driven by building meaningful products and contributing to innovative, challenging projects. Currently focusing on devops, cloud computing, and cybersecurity.",
     "experiences": [
         {
             "role": "NexTrace CTF Winner",
@@ -53,6 +53,13 @@
             "description": "One of the 4 winning members of NexTrace mini CTF by Nexus Security Club at ESTIN, Bejaia.",
             "startYear": 2025,
             "startMonth": 10
+        },
+        {
+            "role": "ITC Flags CTF Author",
+            "company": "ITC | Cascroot",
+            "description": "Author of challenges: Azkaban, Attic, and No Attendees.",
+            "startYear": 2026,
+            "startMonth": 7
         }
     ],
     "present": "Present",

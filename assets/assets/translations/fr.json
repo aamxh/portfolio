@@ -1,6 +1,6 @@
 {
     "name": "Mohammed Alsayed Ahmed",
-    "description": "Développeur Flutter",
+    "description": "Développeur logiciel | Passionné de cybersécurité",
     "subDescription": "Étudiant en informatique",
     "contacts": [
         {
@@ -45,7 +45,7 @@
         }
     ],
     "resumes": [],
-    "aboutDescription": "Je suis étudiant en troisième année d'informatique et je suis passionné par la conception et le développement de logiciels, ainsi que par la recherche académique dans les domaines de l'informatique. Avec plus de 3 ans d'expérience avec Flutter, en me concentrant sur les applications mobiles, j'ai réalisé de nombreux projets, des interfaces utilisateur simples aux applications réelles avec des architectures de gestion d'état complexes. Je suis animé par la création de produits utiles et par ma contribution à des projets innovants et stimulants.",
+    "aboutDescription": "Je suis étudiant en troisième année d'informatique et je suis passionné par la conception et le développement de logiciels, ainsi que par la cybersécurité. Avec plus de 3 ans d'expérience avec Flutter, en me concentrant sur les applications mobiles, j'ai réalisé de nombreux projets, des interfaces utilisateur simples aux applications réelles avec des architectures de gestion d'état complexes. Je suis animé par la création de produits utiles et par ma contribution à des projets innovants et stimulants. Je me concentre actuellement sur le DevOps, le cloud computing et la cybersécurité.",
     "experiences": [
         {
             "role": "Vainqueur du CTF NexTrace",
@@ -53,6 +53,13 @@
             "description": "L'un des 4 membres gagnants du mini CTF NexTrace organisé par le Nexus Security Club à l'ESTIN, Béjaïa.",
             "startYear": 2025,
             "startMonth": 10
+        },
+        {
+            "role": "Auteur de défis CTF ITC Flags",
+            "company": "ITC | Cascroot",
+            "description": "Auteur des défis : Azkaban, Attic et No Attendees.",
+            "startYear": 2026,
+            "startMonth": 7
         }
     ],
     "present": "Présent",
