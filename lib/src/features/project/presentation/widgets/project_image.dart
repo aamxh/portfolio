@@ -15,7 +15,8 @@ class ProjectImage extends ConsumerWidget {
   final bool isHovered;
 
   static const double _iconSize = 36;
-  static const double _aspectRatio = 9 / 16;
+  static const double _aspectRatio = 10 / 7;
+  static const String _ferruxScreenshotPath = 'assets/images/ferrux.png';
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -97,13 +98,15 @@ class ProjectImage extends ConsumerWidget {
     if (screenshotPath == null) {
       return const Center(child: Icon(Icons.code));
     }
+    final fit =
+        screenshotPath == _ferruxScreenshotPath ? BoxFit.cover : BoxFit.contain;
     return SizedBox.expand(
       child: FadeInImage(
         placeholder: MemoryImage(transparentImage),
         image: AssetImage(screenshotPath),
         imageErrorBuilder: (_, __, ___) => const Placeholder(),
-        fit: BoxFit.contain,
-        placeholderFit: BoxFit.contain,
+        fit: fit,
+        placeholderFit: fit,
       ),
     );
   }

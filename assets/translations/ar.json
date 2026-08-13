@@ -148,6 +148,7 @@
             "name": "Ferrux",
             "description": "Ferrux هو خادم وكيل عكسي غير متزامن يدعم توجيه الطبقة السابعة، وفحوصات الصحة، واستراتيجية موازنة تحميل موزونة.",
             "url": "https://github.com/aamxh/ferrux#readme",
+            "screenshotPath": "assets/images/ferrux.png",
             "icon": {
                 "codePoint": "0xefb7",
                 "fontFamily": "FontAwesome",
