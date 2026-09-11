@@ -160,6 +160,12 @@
                     "icon": {
                         "assetName": "assets/icons/other/rust.png"
                     }
+                },
+                {
+                    "name": "Tokio",
+                    "icon": {
+                        "assetName": "assets/icons/other/tokio.png"
+                    }
                 }
             ]
         }
